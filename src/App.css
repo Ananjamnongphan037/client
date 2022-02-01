@@ -1,0 +1,261 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* NavBars________________________________________________________________________________________________ */
+.ffantasy
+{
+  /* padding: 25px; */
+  font-family: fantasy;
+}
+.Lnk
+{
+  margin-right: 15px;
+}
+.h667
+{
+  height: 667px !important;
+}
+.caralcap
+{
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #ffffff;
+    text-align: center;
+    height: 404px;
+}
+
+/* Users_______________________________________________________________________________________________ */
+
+.w75
+{
+  width: 75px;
+}
+
+/* Carosels_______________________________________________________________________________________________ */
+.CarolHight
+{
+  height: 667px;
+}
+
+/* Users */
+.neonText {
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+.neonSkyPink
+{
+  color: #fff;
+  text-shadow:
+  0 0 7px #f004ff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #00fff8,
+  0 0 82px #00fff8,
+  0 0 92px #00fff8,
+  0 0 102px #00fff8,
+  0 0 151px #00fff8;
+}
+.neonskyyellow
+{ 
+  color: #fff;
+  text-shadow: 0 0 10px #007bff, 0 0 10px #fff, 0 0 21px #fff, 0 0 20px #efff00, 0 0 20px #efff00, 0 0 20px #efff00, 0 0 102px #efff00, 0 0 151px #efff00;
+}
+.neonblack
+{
+  color: #f8f9fa;
+  text-shadow: 0 0 10px #212529, 0 0 10px #212529, 0 0 21px #212529, 0 0 20px #212529, 0 0 20px #212529, 0 0 20px #212529, 0 0 102px #212529, 0 0 151px #212529;
+}
+
+
+/* Jarallax parallax _______________________________________________________________________________________________ */
+
+.jr
+{
+  height: auto;
+}
+
+
+/* About  _______________________________________________________________________________________________ */
+
+.Adetail
+{
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.gray
+{
+  color: #dee2e6;
+}
+
+/* TimeLine About Us _______________________________________________________________________________________________ */
+
+.timeline {
+  list-style: none;
+  position: relative;
+  padding: 20px 0;
+}
+
+.timeline>li {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.timeline::before {
+  position: absolute;
+  content: " ";
+  width: 2px;
+  background: #e6e6e6;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1px;
+}
+
+li>.timeline-badge {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border: 3px solid #84ba3f;
+  left: 50%;
+  margin-left: -9px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 0 0 5px #fff;
+  top: 15px;
+}
+
+li>.timeline-badge::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  width: 25px;
+  height: 2px;
+  background: #e6e6e6;
+}
+
+li.inverted>.timeline-badge::before {
+  right: -32px;
+}
+
+li>.timeline-badge p {
+  width: 200px;
+  margin-top: -9px;
+  margin-left: 25px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+li.inverted>.timeline-badge p {
+  float: right;
+  text-align: right;
+  margin-right: 25px;
+}
+
+li>.timeline-card {
+  position: relative;
+  width: 46%;
+  float: left;
+  text-align: right;
+  padding: 0 10px;
+}
+
+li.inverted>.timeline-card {
+  float: right;
+  text-align: left;
+}
+
+.timeline>li::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.timeline-arrow {
+  width: 100%;
+  text-align: center;
+  bottom: -100px;
+  color: #e6e6e6;
+}
+
+/* ____________________________________ */
+
+.p1
+{
+  font-size: 1.75rem;
+}
+.p125
+{
+  font-size: 1.25rem;
+}
+
+.p15
+{
+  font-size: 1.5rem;
+}
+
+.p2
+{
+  font-size: 2rem;
+}
+/* Footers _______________________________________________________________________________________________ */
+
+.Fic
+{
+  color: #6C757D;
+  padding: 5px;
+  font-size: larger;
+}
+.Flt
+{
+  color: #6C757D;
+}
