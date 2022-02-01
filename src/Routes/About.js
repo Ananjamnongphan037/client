@@ -28,8 +28,8 @@ export default function About() {
                             <p className="text-warning p2">15 May 2006</p>
                         </div>
                         <div className="timeline-card">
-                            <h5 className="p1">เรียนโรงเรียนสายธรรมจันทร์</h5>
-                            <p className="p125 gray">เรียนสายศิลป์คำนวน</p>
+                            <h5 className="p1">เรียนโรงกุฉินารายณ์</h5>
+                            <p className="p125 gray">เรียนสายวิทย์คณิต</p>
                         </div>
                     </li>
                     <li>
@@ -37,8 +37,8 @@ export default function About() {
                             <p className="text-warning p2">10 Aug 2012</p>
                         </div>
                         <div className="timeline-card">
-                            <h5 className="p1" >มหาวิทยาลัยเทคโนโลยีราชมงคลรัตนโกสินทร์</h5>
-                            <p className="p125 gray ">Business Information Technology Software Developer</p>
+                            <h5 className="p1" >มหาวิทยาลัยกาฬสินธุ์</h5>
+                            <p className="p125 gray ">computer Business Information Technology </p>
                         </div>
                     </li>
                     <li className="inverted">
@@ -46,8 +46,8 @@ export default function About() {
                             <p className="text-warning p2">15 June 2016</p>
                         </div>
                         <div className="timeline-card">
-                            <h5 className="p1" >เข้าทำงานที่ DOOTV MEDIA</h5>
-                            <p className="p125 gray ">Full Stack Web Developer</p>
+                            <h5 className="p1" >เข้าทำงานที่ </h5>
+                            <p className="p125 gray "> Full Stack Web Developer </p>
                         </div>
                     </li>
                     <li>
@@ -55,8 +55,8 @@ export default function About() {
                             <p className="text-warning p2">1 June 2017</p>
                         </div>
                         <div className="timeline-card">
-                            <h5 className="p1" >เข้าทำงานที่ Thai Livestream</h5>
-                            <p className="p125 gray ">Reseach & Web Developer 360° </p>
+                            <h5 className="p1" >เข้าทำงานที่  </h5>
+                            <p className="p125 gray ">  </p>
                         </div>
                     </li>
                     <li className="inverted">
@@ -65,7 +65,7 @@ export default function About() {
                         </div>
                         <div className="timeline-card">
                             <h5 className="p1" >Freelance Web Developer</h5>
-                            <p className="p125 gray ">Freelance & Web Developer ที่ AppzStory Studio สอนเขียนเว็บไซต์</p>
+                            <p className="p125 gray "> Freelance & Web Developer </p>
                         </div>
                     </li>
                     <li className="timeline-arrow">
